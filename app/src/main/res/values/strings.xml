@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CentroMedico</string>
+    <string name="titulo_app">Panel de Control - Centro Médico</string>
+    <string name="seccion_persona">Información del Paciente</string>
+    <string name="seccion_medico">Información del Médico</string>
+    <string name="seccion_admin">Información Administrativa</string>
+
+    <!-- Navigation -->
+    <string name="nav_inicio">Inicio</string>
+    <string name="nav_pacientes">Pacientes</string>
+    <string name="nav_citas">Citas</string>
+    <string name="nav_factura">Factura</string>
+
+    <!-- Admin Panel -->
+    <string name="ver_pacientes">Ver pacientes</string>
+    <string name="generar_factura">Generar Factura</string>
+    <string name="proximas_citas">PRÓXIMAS CITAS</string>
+    <string name="resumen">RESUMEN</string>
+    <string name="num_pacientes">Pacientes</string>
+    <string name="num_especialistas">Especialistas</string>
+    <string name="num_citas_totales">Citas Totales</string>
+
+    <!-- Forms & Actions -->
+    <string name="registrar_paciente">REGISTRAR PACIENTE</string>
+    <string name="agendar_cita">Agendar cita</string>
+    <string name="facturar">Facturar</string>
+    <string name="confirmar_cita">Confirmar cita</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="registrar">Registrar</string>
+    <string name="imprimir">Imprimir</string>
+    <string name="emitir_factura">Emitir Factura</string>
+    <string name="total">TOTAL</string>
+    <string name="factura_generada">Generado</string>
+    <string name="pacientes_empty_state">Los pacientes registrados aparecerán aquí.</string>
+    <string name="info_historial_medico">Al guardar los datos el historial médico estará listo para el paciente.</string>
+</resources>

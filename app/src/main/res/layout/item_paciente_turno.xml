@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/tvNombrePacienteTurno"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary"
+                tools:text="Juan Pérez (DNI: 0988776655)" />
+
+            <!-- Chip component -->
+            <com.google.android.material.chip.Chip
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asignado"
+                android:textSize="11sp"
+                app:chipBackgroundColor="@color/primary_blue_light"
+                app:chipStrokeWidth="0dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvDetalleTurno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Historial: I-C-2024-001 • Turno Mañana"
+            android:textSize="13sp"
+            android:textColor="@color/text_secondary"
+            android:layout_marginBottom="12dp" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAccionTurno"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:text="Signos / Medicar"
+            android:textSize="12sp"
+            android:backgroundTint="@color/primary_blue"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

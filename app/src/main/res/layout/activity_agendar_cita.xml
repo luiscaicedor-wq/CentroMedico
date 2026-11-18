@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AGENDAR CITA"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_blue_dark" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:padding="16dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Médico y Especialidad:"
+                android:textColor="@color/text_primary" />
+            <EditText
+                android:id="@+id/edtMedico"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dra. Laura Gómez - Cardiología"
+                android:layout_marginBottom="12dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fecha: Septiembre 2026"
+                android:textStyle="bold"
+                android:textColor="@color/primary_blue_dark"
+                android:layout_marginBottom="6dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="L8"
+                    android:padding="8dp"
+                    android:layout_marginEnd="4dp"
+                    android:background="@color/background" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="M9"
+                    android:padding="8dp"
+                    android:layout_marginEnd="4dp"
+                    android:background="@color/background" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="X10 (Seleccionado)"
+                    android:padding="8dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:background="@color/primary_blue"
+                    android:layout_marginEnd="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="J11"
+                    android:padding="8dp"
+                    android:layout_marginEnd="4dp"
+                    android:background="@color/background" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="V12"
+                    android:padding="8dp"
+                    android:background="@color/background" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sede de la Clínica:"
+                android:textColor="@color/text_primary" />
+            <EditText
+                android:id="@+id/edtSede"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Clínica San Marcos - Sede Central"
+                android:layout_marginBottom="12dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paciente:"
+                android:textColor="@color/text_primary" />
+            <EditText
+                android:id="@+id/edtPacienteSeleccionado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Juan Pérez (DNI: 0988776655)"
+                android:layout_marginBottom="16dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/primary_blue_light"
+                android:padding="12dp"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Juan Pérez con Dra. Laura Gómez"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary_blue_dark" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10:00 - 11:00 am • Turno Mañana"
+                    android:textColor="@color/primary_blue"
+                    android:layout_marginTop="2dp" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btnConfirmarCita"
+                android:layout_width="match_parent"
+
+
+
+                android:layout_height="wrap_content"
+                android:text="Confirmar Cita"
+                android:backgroundTint="@color/primary_blue"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:itemIconTint="@color/primary_blue"
+        app:itemTextColor="@color/primary_blue"
+        app:menu="@menu/bottom_nav_admin_menu" />
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+

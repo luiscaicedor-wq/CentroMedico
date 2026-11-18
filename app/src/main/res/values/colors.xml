@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#F8F9FA</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#666666</color>
+
+    <!-- Accent colors -->
+    <color name="accent_persona">#1976D2</color>
+    <color name="accent_medico">#1976D2</color>
+    <color name="accent_admin">#1976D2</color>
+
+    <!-- Theme Blue Colors (Clean Medical Blue) -->
+    <color name="primary_blue">#1976D2</color>
+    <color name="primary_blue_dark">#0D47A1</color>
+    <color name="primary_blue_light">#E3F2FD</color>
+
+    <!-- Legacy AliasesMapped to Blue -->
+    <color name="primary_green">#1976D2</color>
+    <color name="primary_green_dark">#0D47A1</color>
+    <color name="primary_green_light">#E3F2FD</color>
+    <color name="divider_color">#E0E0E0</color>
+    <color name="info_bg">#E3F2FD</color>
+    <color name="info_text">#0D47A1</color>
+    <color name="tag_green_bg">#E3F2FD</color>
+    <color name="tag_green_text">#0D47A1</color>
+</resources>
